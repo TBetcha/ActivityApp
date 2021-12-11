@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\API.deps.json" />
+    <Content Include="bin\Debug\net5.0\API.dll" />
+    <Content Include="bin\Debug\net5.0\API.pdb" />
+    <Content Include="bin\Debug\net5.0\API.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\API.runtimeconfig.json" />
+    <Content Include="bin\Debug\net5.0\Application.dll" />
+    <Content Include="bin\Debug\net5.0\Application.pdb" />
+    <Content Include="bin\Debug\net5.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net5.0\appsettings.json" />
+    <Content Include="bin\Debug\net5.0\Domain.dll" />
+    <Content Include="bin\Debug\net5.0\Domain.pdb" />
+    <Content Include="bin\Debug\net5.0\Humanizer.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.Data.Sqlite.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll" />
+    <Content Include="bin\Debug\net5.0\Microsoft.OpenApi.dll" />
+    <Content Include="bin\Debug\net5.0\Persistence.dll" />
+    <Content Include="bin\Debug\net5.0\Persistence.pdb" />
+    <Content Include="bin\Debug\net5.0\ref\API.dll" />
+    <Content Include="bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so" />
+    <Content Include="bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib" />
+    <Content Include="bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll" />
+    <Content Include="bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll" />
+    <Content Include="bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll" />
+    <Content Include="bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll" />
+    <Content Include="bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll" />
+    <Content Include="bin\Debug\net5.0\SQLitePCLRaw.core.dll" />
+    <Content Include="bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll" />
+    <Content Include="bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll" />
+    <Content Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <Content Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <Content Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <Content Include="bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll" />
+  </ItemGroup>
+
+</Project>
