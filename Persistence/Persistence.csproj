@@ -9,15 +9,35 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="obj\**" />
+    <Content Include="bin\Debug\net5.0\Domain.dll" />
+    <Content Include="bin\Debug\net5.0\Domain.pdb" />
+    <Content Include="bin\Debug\net5.0\Persistence.deps.json" />
+    <Content Include="bin\Debug\net5.0\Persistence.dll" />
+    <Content Include="bin\Debug\net5.0\Persistence.pdb" />
+    <Content Include="bin\Debug\net5.0\ref\Persistence.dll" />
+    <Content Include="obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net5.0\Persistence.assets.cache" />
+    <Content Include="obj\Debug\net5.0\Persistence.csproj.CopyComplete" />
+    <Content Include="obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\net5.0\Persistence.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\net5.0\Persistence.dll" />
+    <Content Include="obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net5.0\Persistence.pdb" />
+    <Content Include="obj\Debug\net5.0\ref\Persistence.dll" />
+    <Content Include="obj\Persistence.csproj.EntityFrameworkCore.targets" />
+    <Content Include="obj\Persistence.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Persistence.csproj.nuget.g.props" />
+    <Content Include="obj\Persistence.csproj.nuget.g.targets" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\project.nuget.cache" />
+    <Content Include="obj\project.packagespec.json" />
+    <Content Include="obj\rider.project.restore.info" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="obj\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="obj\**" />
+    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0\Persistence.AssemblyInfo.cs" />
   </ItemGroup>
 
   <PropertyGroup>

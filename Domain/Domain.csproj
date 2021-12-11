@@ -5,4 +5,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\Domain.deps.json" />
+    <Content Include="bin\Debug\net5.0\Domain.dll" />
+    <Content Include="bin\Debug\net5.0\Domain.pdb" />
+    <Content Include="bin\Debug\net5.0\ref\Domain.dll" />
+  </ItemGroup>
+
 </Project>
