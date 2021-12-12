@@ -5,9 +5,10 @@ using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+
 namespace API.Controllers
-  
- // * Want API Controller to be thin and dumb
+
+  // * Want API Controller to be thin and dumb
 
 {
   public class ActivitiesController : BaseApiController
