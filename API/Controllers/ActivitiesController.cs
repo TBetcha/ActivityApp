@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
@@ -24,7 +25,13 @@ namespace API.Controllers
     [HttpGet("{id}")]
     public async Task<ActionResult<Activity>> GetActivity(Guid id)
     {
-      return await Mediator.Send(new Details.Query {Id = id});
+      var res =  await Mediator.Send(new Details.Query {Id = id});
+      if (res is null)
+      {
+        throw new SqlNullValueException();
+      }
+
+      return res;
     }
 
     [HttpPost]
@@ -38,6 +45,12 @@ namespace API.Controllers
     {
       activity.Id = id;
       return Ok(await Mediator.Send(new Edit.Command {Activity = activity}));
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteActivity(Guid id)
+    {
+      return Ok(await Mediator.Send(new Delete.Command {Id = id}));
     }
   }
 }
