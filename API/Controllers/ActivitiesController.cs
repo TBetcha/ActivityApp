@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
-using System.Threading;
 using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
